@@ -38,7 +38,7 @@
       </feature>
     </config-file>
 	  
-    <edit-config target="*/Entitlements-Debug.plist" parent="com.apple.developer.associated-domains" mode="merge">
+    <edit-config target="*/Entitlements-Debug.plist" parent="com.apple.developer.associated-domains" mode="replace">
       <array>
 	<string>applinks:www.wg-gesucht.de</string>
 	      </array>
