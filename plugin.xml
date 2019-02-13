@@ -38,11 +38,11 @@
       </feature>
     </config-file>
 	  
-    <edit-config target="*/Entitlements-Debug.plist" parent="com.apple.developer.associated-domains" mode="overwrite">
-      <array>
-	<string>applinks:www.wg-gesucht.de</string>
-	      </array>
-	</edit-config>
+    <config-file platform="ios" target="*/Entitlements-Debug.plist" parent="com.apple.developer.associated-domains" mode="replace">
+			<array>
+				<string>applinks:www.wg-gesucht.de</string>
+		    </array>
+		</config-file>
 
 
 <!-- Objective-C Sources -->
