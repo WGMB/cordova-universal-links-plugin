@@ -38,7 +38,7 @@
       </feature>
     </config-file>
 	  
-    <config-file target="*-Debug.plist" parent=com.apple.developer.associated-domains">
+    <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
       <array>
 	<string>applinks:www.wg-gesucht.de</string>
 	      </array>
