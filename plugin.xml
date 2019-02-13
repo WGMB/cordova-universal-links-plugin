@@ -38,11 +38,11 @@
       </feature>
     </config-file>
 	  
-    <config-file target="*-Debug.plist" parent="com.apple.developer.associated-domains">
+    <edit-config target="*-Debug.plist" parent="com.apple.developer.associated-domains" mode="merge">
       <array>
 	<string>applinks:www.wg-gesucht.de</string>
 	      </array>
-	</config-file>
+	</edit-config>
 
 
 <!-- Objective-C Sources -->
